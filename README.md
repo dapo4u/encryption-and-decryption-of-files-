@@ -64,9 +64,9 @@ SAVE THE FILE WITH CONTROL PLUS S COMMAND ON THE VSCODE EDITOR.
 
 STEP5 .OPEN YOUR CMD COMMAND LINE ON YOUR PC.
 
-STEP6.TYPE "cd encrypt" .(remember encrypt is the name of the folder that contains the python file-main.py
+STEP6.TYPE cd encrypt .(remember encrypt is the name of the folder that contains the python file-main.py
 
-STEP 7.TYPE "python main.py
+STEP 7.TYPE python main.py
 
 then watch the video below to learn more .
 
