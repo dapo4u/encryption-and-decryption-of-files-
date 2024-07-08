@@ -1,47 +1,82 @@
-import PyPDF2
-from tkinter import Tk, filedialog, simpledialog, messagebox
+from cryptography.fernet import Fernet
+from tkinter import *
+from tkinter import filedialog
+from functools import partial
 
-def password_protect_pdf(input_pdf_path, output_pdf_path, password):
-    # Open the input PDF file
-    with open(input_pdf_path, 'rb') as input_pdf_file:
-        pdf_reader = PyPDF2.PdfReader(input_pdf_file)
-        
-        # Create a PDF writer object
-        pdf_writer = PyPDF2.PdfWriter()
+global filename
+button_height = 2
+button_width = 25
 
-        # Add all pages to the writer
-        for page_num in range(len(pdf_reader.pages)):
-            pdf_writer.add_page(pdf_reader.pages[page_num])
+def browseFiles():
+    browseFiles.filename = filedialog.askopenfilename(initialdir="/", title="Select a File",)
+    label_file_explorer.configure(text="File Opened: " + browseFiles.filename)
 
-        # Encrypt the PDF with the password
-        pdf_writer.encrypt(password)
+    pass_label.pack()
+    password.pack()
+    temp_label.pack()
+    button_encrypt.pack()
+    button_decrypt.pack()
 
-        # Write the output PDF file
-        with open(output_pdf_path, 'wb') as output_pdf_file:
-            pdf_writer.write(output_pdf_file)
+def encrypt_file(p_word):
+    temp_key = p_word.get()
+    temp_key = ''.join(e for e in temp_key if e.isalnum())
+    key = temp_key + ("s" * (43 - len(temp_key)) + "=")
 
-# Create a Tkinter root window (it will be hidden)
-root = Tk()
-root.withdraw()
+    fernet = Fernet(key)
 
-# Ask the user to select the input PDF file
-input_pdf_path = filedialog.askopenfilename(title="Select PDF file to password protect", filetypes=[("PDF files", "*.pdf")])
+    with open(browseFiles.filename, 'rb') as file:  original = file.read()
+    encrypted = fernet.encrypt(original)
 
-if input_pdf_path:
-    # Ask the user for the output PDF file path
-    output_pdf_path = filedialog.asksaveasfilename(title="Save password protected PDF as", defaultextension=".pdf", filetypes=[("PDF files", "*.pdf")])
+    with open(browseFiles.filename, 'wb') as encrypted_file:    encrypted_file.write(encrypted)
 
-    if output_pdf_path:
-        # Ask the user for the password
-        password = simpledialog.askstring("Password", "Enter password to protect the PDF:", show='*')
+    status_label.configure(text="Encrypted")
+    status_label.pack()
 
-        if password:
-            # Protect the PDF with the password
-            password_protect_pdf(input_pdf_path, output_pdf_path, password)
-            messagebox.showinfo("Success", "The PDF has been password protected successfully!")
-        else:
-            messagebox.showwarning("Warning", "No password entered. Operation cancelled.")
-    else:
-        messagebox.showwarning("Warning", "No output file selected. Operation cancelled.")
-else:
-    messagebox.showwarning("Warning", "No input file selected. Operation cancelled.")
+def decrypt_file(p_word):
+    temp_key = p_word.get()
+    temp_key = ''.join(e for e in temp_key if e.isalnum())
+    key = temp_key + ("s" * (43 - len(temp_key)) + "=")
+
+    fernet = Fernet(key)
+
+    with open(browseFiles.filename, 'rb') as enc_file:  encrypted = enc_file.read()
+    decrypted = fernet.decrypt(encrypted)
+
+    with open(browseFiles.filename, 'wb') as dec_file:  dec_file.write(decrypted)
+
+    status_label.configure(text="Decrypted")
+    status_label.pack()
+
+
+window = Tk()
+
+window.title('File Explorer')
+window.geometry("940x740")
+window.config(background="black")
+
+main_title = Label(window, text="File Encryptor and Decryptor", width=100, height=2, fg="white", bg="black",font =("",30))
+passwd = StringVar()
+
+submit_para_en = partial(encrypt_file, passwd)
+submit_para_de = partial(decrypt_file, passwd)
+
+credit = Label(window,text = "Developed by OLATUNJI DAPO R", bg="Green",height=2,  fg = "white", font =("",15))
+label_file_explorer = Label(window, text="File Name : ", width=100, height=2, fg="white", bg="black",font =("",20))
+pass_label = Label(window, text="Password for encryption/decryption : ", width=100, height=2, fg="white", bg="black",font =("",20))
+temp_label = Label(window, text="", height=3, bg="black")
+
+button_explore = Button(window, text="Browse File", command=browseFiles, width=button_width, height=button_height, font =("",15))
+
+password = Entry(window, textvariable=passwd,show="*")
+
+button_encrypt = Button(window, text="Encrypt", command=submit_para_en, width=button_width, height=button_height, font =("",15))
+button_decrypt = Button(window, text="Decrypt", command=submit_para_de, width=button_width, height=button_height, font =("",15))
+
+status_label = Label(window, text="", width=100, height=4, fg="white", bg="black",font =("",17))
+
+credit.pack()
+main_title.pack()
+label_file_explorer.pack()
+button_explore.pack()
+window.mainloop()
+
