@@ -1,4 +1,4 @@
-# encryption-and-decryption-of-files-
+# Encryption-and-Decryption-of-Files-
 I made two different apps for the protection of file
 # APPLICATION 1 IS CALLED "PWD" 
 HOW TO CREATE A PASSWORD PROTECTED PDF DOCUMENTS
@@ -69,6 +69,11 @@ STEP6.TYPE cd encrypt .(remember encrypt is the name of the folder that contains
 STEP 7.TYPE python main.py
 
 then watch the video below to learn more .
+
+
+## PLEASE Watch the Video
+
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=iTa1M6lVjnY)
 
 
 
