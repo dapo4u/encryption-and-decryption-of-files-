@@ -2,7 +2,7 @@
 
 # PLEASE WATCH THE VIDEO TO LEARN HOW TO MAKE THE PROJECTS 
 
-[![Watch the video] (https://scontent.flos3-2.fna.fbcdn.net/v/t39.30808-6/450237366_501759152238277_1544840264862761026_n.jpg?stp=dst-jpg_p526x296&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeFvQp7SfmXrnaIjK1a6IAGQpbpVAMaO6zqlulUAxo7rOkSEOBKEM16ZYrwpjwo2NwK2Uww0uCQLyKJDtZETYgIH&_nc_ohc=myfK-DzVUvUQ7kNvgHx104G&_nc_zt=23&_nc_ht=scontent.flos3-2.fna&oh=00_AYAJGVeMcx0eTSvEDvZVHqbFJzDZzCzXGXcB1-JlOHnleg&oe=66945E18)](https://www.youtube.com/watch?v=iTa1M6lVjnY)
+[![Watch the video] (https://cdn.pixabay.com/photo/2024/07/10/14/57/14-57-05-821_1280.jpg)](https://www.youtube.com/watch?v=iTa1M6lVjnY)
 
 
 
