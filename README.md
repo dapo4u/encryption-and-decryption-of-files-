@@ -2,7 +2,7 @@
 
 # PLEASE WATCH THE VIDEO TO LEARN HOW TO MAKE THE PROJECTS 
 
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=iTa1M6lVjnY)
+[![Watch the video] (https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=iTa1M6lVjnY)
 
 
 I made two different apps for the protection of files
