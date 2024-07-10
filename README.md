@@ -3,7 +3,7 @@
 # PLEASE WATCH THE VIDEO TO LEARN HOW TO MAKE THE PROJECTS 
 
 <a href="https://www.youtube.com/watch?v=iTa1M6lVjnY" target="_blank">
-    <img src="https://cdn.pixabay.com/photo/2024/07/10/14/57/14-57-05-821_1280.jpg" alt="Watch the video" width="600" height="400" />
+    <img src="https://img.youtube.com/vi/iTa1M6lVjnY/0.jpg" alt="Watch the video" width="600" height="400" />
 </a>
 
 
