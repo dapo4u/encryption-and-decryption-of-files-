@@ -1,6 +1,6 @@
 # Encryption-and-Decryption-of-Files-#
 
-# PLEASE WATCH THE YOUTUBE VIDEO  TO LEARN HOW TO MAKE THE PROJECTS 
+# PLEASE WATCH THE YOUTUBE VIDEO BELOW TO LEARN HOW TO MAKE THE PROJECTS 
 
 <a href="https://www.youtube.com/watch?v=iTa1M6lVjnY" target="_blank">
     <img src="https://github.com/dapo4u/encryption-and-decryption-of-files/blob/main/Screenshot_1.jpg" alt="# WATCH THE VIDEO" width="700" height="900" />
