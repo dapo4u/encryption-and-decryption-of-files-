@@ -2,7 +2,7 @@
 
 # PLEASE WATCH THE VIDEO TO LEARN HOW TO MAKE THE PROJECTS 
 
-[![Watch the video] (https://img.youtube.com/vi/iTa1M6lVjnY/0.jpg)](https://www.youtube.com/watch?v=iTa1M6lVjnY)
+[![Watch the video] (https://www.instagram.com/p/C9PqfXysXV7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)](https://www.youtube.com/watch?v=iTa1M6lVjnY)
 
 
 
