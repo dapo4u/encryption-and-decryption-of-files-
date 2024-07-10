@@ -1,4 +1,10 @@
-# Encryption-and-Decryption-of-Files-
+# Encryption-and-Decryption-of-Files-#
+
+# PLEASE WATCH THE VIDEO TO LEARN HOW TO MAKE THE PROJECTS 
+
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=iTa1M6lVjnY)
+
+
 I made two different apps for the protection of files
 # APPLICATION 1 IS CALLED "PWD" 
 HOW TO CREATE A PASSWORD PROTECTED PDF DOCUMENTS
@@ -39,7 +45,7 @@ install pypdf2 with the command -pip install PyPDF2
 
 6.Set and save the password for the new pdf file.
 
-For full explanation ,please watch the video below
+# For full explanation ,please watch the video above 
 
 
 
@@ -74,7 +80,7 @@ THAT YOU CREATED USING THE VSCODE.
 
 # STEP 7.TYPE python main.py
 
-then watch the video below to learn more .
+# For full explanation,pls watch the video above  to learn more .
 
 
 ## PLEASE Watch the Video
