@@ -2,7 +2,11 @@
 
 # PLEASE WATCH THE VIDEO TO LEARN HOW TO MAKE THE PROJECTS 
 
-[![Watch the video] (https://cdn.pixabay.com/photo/2024/07/10/14/57/14-57-05-821_1280.jpg)](https://www.youtube.com/watch?v=iTa1M6lVjnY)
+[[Watch the video]  (https://cdn.pixabay.com/photo/2024/07/10/14/57/14-57-05-821_1280.jpg)](https://www.youtube.com/watch?v=iTa1M6lVjnY)
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+    <img src="https://cdn.pixabay.com/photo/2024/07/10/14/57/14-57-05-821_1280.jpg" alt="Watch the video" width="600" height="400" />
+</a>
+
 
 
 
