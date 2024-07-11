@@ -27,37 +27,38 @@ You password protected any PDF document with my app,this is to prevent unauthori
 PDF file such as your Monthly Bank account statement, 
 this is why Banks do send password protected documents to their customers .
 
-# STEPS TO MAKE THE APP ARE AS FOLLOWS:
 
-# STEP 1 CREATE A FOLDER ON YOUR COMPUTER WITH THE NAME -PWD OR WHATEVER NAME YOU WANT
 
-# STEP 2 CREATE A FILE WITH A NAME app.py USING A VSCODE .
+# STEP 1: CREATE A FOLDER ON YOUR COMPUTER WITH THE NAME -PWD OR WHATEVER NAME YOU WANT.TO DO THIS, OPEN YOUR CMD COMMAND LINE.
 
-# STEP 3 OPEN THE FILE ATTACHED TO THIS REPOSITORY ABOVE WITH THE NAME app.py 
+# TYPE mkdir pwd
 
-# STEP 4 COPY THE CODE   AND PASTE THE CODE IN THE app.py OF YOUR VSCODE 
+# STEP 2:OPEN THE ABOVE FOLDER WITH A VSCODE EDITOR. CREATE A FILE WITH A NAME  app.py USING A VSCODE TEXT EDITOR. 
+# THERE IS A FILE ATTACHED TO  THIS REPOSITORY ABOVE CALLED "app.py".
 
-# STEP 5 SAVE THE CODE IN THE VSCODE WITH THE COMMAND WHICH IS CONTROL AND S 
+# OPEN THE FILE ,COPY THE CODE AND PASTE THE CODE IN THE PYTHON FILE WITH THE NAME app.py 
 
-# you must install python CORRECTLY on your PC.
+# THAT YOU CREATED USING THE VSCODE.SAVE THE FILE.
 
-# you must install pypdf2.
+# STEP 3.you must install python CORRECTLY on your PC.
 
-install pypdf2 with the command -pip install PyPDF2
+# STEP 4.you must install pypdf2.
+
+# install pypdf2 with the command -pip install PyPDF2
 
 # TO RUN THE CODE.
 
-1.Open your CMD Terminal .
+# 1.Open your CMD Terminal .
 
-2.type cd PWD
+# 2.type cd pwd
 
-3.type python app.py
+# 3.type python app.py
 
-4.you shall see a pop up
+# 4.you shall see a pop up
 
-5.type and save the new name of the pdf file you want to encrypt
+# 5.type and save the new name of the pdf file you want to encrypt
 
-6.Set and save the password for the new pdf file.
+# 6.Set and save the password for the new pdf file.
 
 # For full explanation ,please watch the video above 
 
@@ -77,14 +78,16 @@ I CALLED THIS APP "ENCRYPT".
 APP TO WORK(OTHER WISE THE APP WILL NOT WORK).
 THE MODULES ARE CRYPTOGRAPHY ,TKINTER ,AND OTHER DEPENDENCIES THAT ARE NEEDED
 
-# STEP3: CREATE A FOLDER ON YOUR PC WITH THE NAME -ENCRYPT,THIS IS THE NAME I CALLED THE APP
+# STEP3: CREATE A FOLDER ON YOUR PC USING YOUR CMD COMMAND LINE.
 
-# STEP4 :OPEN THE FOLDER WITH A VSCODE TEXT EDITOR ,CREATE A PYTHON FILE WITH THE "main.py" 
-THERE IS A FILE ATTACHED TO THE THIS REPOSITORY ABOVE CALLED "main.py".
+# OPEN YOUR CMD. TYPE, mkdir encrypt
 
-OPEN THE FILE ,COPY THE CODE AND PASTE IN THE PYTHON FILE WITH THE NAME main.py 
+# STEP4 :OPEN THEABOVE  CREATED FOLDER WHICH IS encrypt  WITH A VSCODE TEXT EDITOR ,CREATE A PYTHON FILE WITH THE "main.py" 
+# THERE IS A FILE ATTACHED TO  THIS REPOSITORY ABOVE CALLED "main.py".
 
-THAT YOU CREATED USING THE VSCODE.
+# OPEN THE FILE ,COPY THE CODE AND PASTE THE CODE IN THE PYTHON FILE WITH THE NAME main.py 
+
+# THAT YOU CREATED USING THE VSCODE.
 
 # SAVE THE FILE WITH CONTROL PLUS S COMMAND ON THE VSCODE EDITOR.
 
